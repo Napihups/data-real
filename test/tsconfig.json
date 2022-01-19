@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDeclarationOnly": false,
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "noImplicitReturns": false,
+    "noUnusedLocals": false
+  },
+  "include": ["**/*.spec.ts"]
+}
